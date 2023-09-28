@@ -1,0 +1,11 @@
+.header {
+    padding: 25px 0;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to bottom rgb (0,160,198)rgba(3,109,134,1));
+}
+
+.body {
+    margin:15px;
+    box-sizing:border-box;
+    font: size 1rem;
+}
