@@ -74,8 +74,8 @@ function boundary(){
 /* ESERCIZIO 7
  Scrivi una funzione di nome "reverseString", il cui scopo è invertire una stringa fornita come parametro (es. "EPICODE" --> "EDOCIPE")*/
 
- let str= "Epicode"
- function reverseString(str) {
+ /*let str= "Epicode"
+ function reverseString(str)/*
 
     return str;
  }
@@ -101,3 +101,10 @@ reverseString("Epicode")
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+
+
+
+
+
+    console.log ("solo chi ha preso almeno 18 o si chiama Mario puo' entrare")}

@@ -137,4 +137,24 @@ const myArrey = [];
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+const i = 1
+
+switch(i){
+  case 0:
+    console.log("i è zero");
+    break;
+    case 1:
+      console.log("i è uno");
+      break;
+      case 2:
+        console.log("i è due");
+        break;
+
+}
+
+
+
+const saluto= "Ciao Studenti! Salutiamo tutti gli studenti"
+const maiuscolo= saluto.toLowerCase(saluto)
+
+console.log(maiuscolo)
