@@ -1,0 +1,33 @@
+.post-it {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    padding: 10px;
+    border: 2px solid #f0f0f0;
+    position: relative;
+    text-align: center;
+    font-size: normal;
+    margin: 10px;
+    float: left;
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+    font-family: 'Indie Flower';
+    font-weight: 400;
+}
+
+
+.post-it.green {
+    background-image: linear-gradient(var(--verde) 0%, var(--verde) 75%, #a1b8a1 90%, #a1b8a1 100%);
+}
+
+
+
+
+:root {
+    --giallo: yellow;
+}
+
+
+.post-it:hover {
+    transform: scale(1.1); 
+}
