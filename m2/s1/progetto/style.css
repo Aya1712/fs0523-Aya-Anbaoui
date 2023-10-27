@@ -1,0 +1,128 @@
+.body { 
+    font-family: 'Spectral', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.barra {
+    background-color: #FFC017;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    padding: 20px 0;
+    position: sticky;
+
+}
+
+.links {
+    list-style-type: none;
+    display: flex;
+
+}
+
+nav li {
+    margin-right: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+ }
+
+.altri{
+    padding: 10px;
+}
+
+ nav a {
+    text-decoration: none;
+    color: #000000
+}
+
+ul.links li.get-started a{
+    color: white !important; 
+}
+
+
+
+
+.logo img {
+    margin-left: 40px; 
+    width: 100px; 
+}
+    
+    
+
+
+.get-started {
+    background-color: #000; 
+    border: 2px solid #000; 
+    border-radius: 99em;
+    padding: 10px; 
+    color:white;
+}
+
+
+
+.titolo h1{
+    margin-bottom: 20px;
+    font-family:  "Segoe UI" "Open Sans", "Helvetica Neue", sans-serif; 
+    font-weight: 400;
+    padding-left: 50px;
+    padding-top: 50px;
+    background-color: #FFC017;
+    font-size: 100px;
+    font-weight: 400;
+    margin-left: 1em;
+}
+
+.discover {
+    padding-left: 5em;
+    font-size: 30px;
+}
+
+.firstbutton {
+    margin-top: 4em;
+    margin-left: 7.5em;
+    padding: 8px 20px;
+    width: 213px;
+    border-radius: 99em;
+    cursor: pointer;
+    background: #000000;
+    border-color: #000000;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+
+
+
+}
+.partegialla {
+    background-color: #FFC017;
+}
+
+
+.yellow {
+    background-color: #FFC017;
+}
+
+    
+
+.hr{
+    border-bottom: 1px solid black;
+}
+
+.trending {
+
+    padding-left: 8em;
+    margin-top: 2em;
+}
+
+.trending.container {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;    
+}
