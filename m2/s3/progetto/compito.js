@@ -18,8 +18,7 @@ const ProductAdmin = () => {
   const token = 'YOUR_AUTH_TOKEN'; 
 
   useEffect(() => {
-    // Carica la lista dei prodotti quando il componente viene montato
-    fetchProducts();
+ì    fetchProducts();
   }, []);
 
   const fetchProducts = async () => {
@@ -36,7 +35,6 @@ const ProductAdmin = () => {
   };
 
   const handleInputChange = (e) => {
-    // Aggiorna lo stato del nuovo prodotto quando vengono inseriti i dati
     setNewProduct({
       ...newProduct,
       [e.target.name]: e.target.value,
@@ -62,7 +60,6 @@ const ProductAdmin = () => {
 
   const editProduct = async () => {
     try {
-      // Invia la richiesta PUT per modificare un prodotto
       await axios.put(`https://striveschool-api.herokuapp.com/api/product/${editProductId}`, newProduct, {
         headers: {
           Authorization: `Bearer ${token}`,
@@ -79,13 +76,11 @@ const ProductAdmin = () => {
 
   const deleteProduct = async (productId) => {
     try {
-      // Invia la richiesta DELETE per cancellare un prodotto
       await axios.delete(`https://striveschool-api.herokuapp.com/api/product/${productId}`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
       });
-      // Aggiorna la lista dei prodotti
       fetchProducts();
       // Resetta il form
       resetForm();
@@ -107,7 +102,6 @@ const ProductAdmin = () => {
   };
 
   const setEditModeAndPopulateForm = (productId) => {
-    // Imposta la modalità di modifica e popola il form con i dettagli del prodotto
     const productToEdit = products.find((product) => product._id === productId);
     setEditMode(true);
     setEditProductId(productId);
